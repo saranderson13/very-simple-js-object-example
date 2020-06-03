@@ -15,4 +15,7 @@ Requires no installation. Open the index.html file in your browser.
 - Create new files to create new objects.
 
 ## Contributing
-This isn't meant for to go anywhere but to have an example, so no pull requests, but feel free to fork and play around with it.
+This isn't meant to go anywhere but to have an example, so no pull requests, but feel free to fork and play around with it.
+
+##License
+Just don't steal it I guess.
