@@ -1,6 +1,6 @@
 # very-simple-js-object-example
 
-Foobar is a Python library for dealing with word pluralization.
+Just an example of simple Javascript ojects, and how to make them render on a webpage.
 
 ## Installation
 
