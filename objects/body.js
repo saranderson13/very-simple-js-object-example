@@ -8,7 +8,7 @@ class Body {
         const container = document.getElementById('app-container')
 
         // Create a container for the content
-        const content = document.createElement('div')
+        const content = document.createElement('p')
 
         // Add styling or other attributes.
         content.className = 'bodyStyling'
