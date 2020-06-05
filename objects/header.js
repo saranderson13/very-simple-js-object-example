@@ -8,7 +8,9 @@ class Header {
     }
     
 
-    
+    // This function creates your content and inserts it directly into a pre-determined container.
+    // This is inflexible. It can only ever be inserted into the same container, which might not exist.
+    // Spoiler alert, there is a better way.
     insertHeader() {
         // Grab your main container from the dom.
         // This is a div defined in your index.html.
@@ -43,6 +45,10 @@ class Header {
         // container.appendChild(badContainer)
     }
 
+
+
+
+
     // Best option!
     // Create a method that returns a node that you want to insert somewhere.
     // You can then insert this node anywhere!
@@ -60,6 +66,18 @@ class Header {
         headerNode.innerText = this.content
 
         return headerNode
+    }
+
+
+    // This function creates a basic header, and then modifies it.
+    decoratedHeader() {
+        // Create your basic header.
+        const header = this.createHeaderNode()
+
+        // Add special new styling. Or whatever. Many possibilities.
+        header.className += " specialStyling"
+
+        return header
     }
 
 }
